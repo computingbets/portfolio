@@ -32,8 +32,17 @@ header {
 
 }
 
+.container {
+   box-shadow: 10px 10px darkgreen;
+}
+
+#pasta {
+  box-shadow: 15px 15px black;
+}
+
 .name {
   padding-left: 5%;
+  padding-top: .7%;
 }
 
 header h1 {
@@ -77,6 +86,7 @@ body {
   animation-duration: 10s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
   @keyframes jiggle {
     from {margin-right: 0%;}
