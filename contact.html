@@ -1,17 +1,16 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <title>BZ - Contact</title>
   <link rel="shortcut icon" type="image/jpg" href="img/bzlogo3.png"/>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/contact.js"> </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/contact.css">
-  <script src="js/bz.js"></script>
 </head>
 <body>
   <header>
@@ -29,99 +28,58 @@
     </nav>
 </header>
 
-<div class="container">
-  <!--Section: Contact v.2-->
-<section class="mb-4">
+<!-- Button to trigger modal -->
+<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalForm">
+ Contact
+</button>
 
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5"></p>
-
-    <div class="row">
-
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message here</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+<!-- Modal -->
+<div class="modal fade" id="modalForm" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Contact Form</h4>
             </div>
-            <div class="status"></div>
+
+            <!-- Modal Body -->
+            <div class="modal-body" style="background-image: url('css/TwitterLogo.png'); postion="absolute";>
+                <p class="statusMsg"></p>
+                <form role="form">
+                    <div class="form-group">
+                      <div>                          <!-- <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter your name"/> -->
+                      Sweet Tweets:<a href="https://twitter.com/john_jokess">@john_jokess</a>🍦
+                    </div>
+                  </div>
+                    <div class="form-group">
+                        <!-- <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"/> -->
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage" placeholder="Enter your message"></textarea> -->
+
+                    </div>
+                </form>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary submitBtn" onclick="submitContactForm()">SUBMIT</button> -->
+            </div>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Somerville, MA, USA</p>
-                </li>
-
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>bz@bootlegzen.com</p>
-                </li>
-            </ul>
-        </div>
-        <!--Grid column-->
-
     </div>
-
-</section>
-<!--Section: Contact v.2-->
 </div>
+
+
+
+<div class="mario"></div>
 
 </body>
 </html>
