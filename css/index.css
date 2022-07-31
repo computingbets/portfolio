@@ -81,9 +81,9 @@ body {
   /* padding-top: 10%
   padding-bottom: 15px; */
   border-radius: 50%;
-  background-image:url("/img/pasta.png");
+  background-image:url("../img/pasta.png");
   animation-name: jiggle;
-  animation-duration: 10s;
+  animation-duration: 9.8s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
