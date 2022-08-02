@@ -11,9 +11,11 @@ body {
   background-color: #007700
 
 }
-
-h4 {
+h3 {
   color: #010482;
+}
+h4 {
+  color: #441392;
 }
 
 /* main */
@@ -32,6 +34,9 @@ header h1 {
     border-color: #074207;
     border-width: medium;
     font-size: 1.85rem;
+}
+.lit {
+
 }
 .header-banner {
     background-color: #073299;
@@ -83,7 +88,7 @@ header h1 {
       animation-name: gold;
       animation-duration: 5s;
     }
-  a {
+  .hed {
       animation-name: gold;
       animation-duration: 5s;
     }
