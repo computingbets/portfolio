@@ -26,10 +26,13 @@ header {
 
 .mario {
   background-color: #72C59B;
-  width: 33%;
-  height: 100px;
+  width: 25%;
+  height: 250px;
   position: relative;
-  float: right;
+  background-image: url("../img/delish-bolognese-horizontal-1-1540572556.jpg");
+  background-position: center;
+  background-size: 100%;
+  opacity: 50%;
 }
 
 #ContactUs100 {

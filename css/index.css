@@ -1,14 +1,31 @@
-/* blue 073299
-g 007700
-yellow FDE900 */
+@font-face {
+  font-family: 'oswald';
+  src: url('Wavetosh.ttf');
+}
 
-/* resets */
+header h1 {
+  /* background-color: #939597; */
+  color: #f0c506;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  opacity: 90%;
+  border-color: #074207;
+  border-width: medium;
+  font-size: 1.85rem;
+  
+}
+
+h1 {
+font-family: 'oswald', Arial, Helvetica, sans-serif;
+}
+
 body {
   margin: 0px; padding:0px;
   color: #073299;
   font-family: helvetica;
   line-height: 1.6;
-  background-color: #007700
+  background-color: #023315
 
 }
 h3 {
@@ -24,22 +41,18 @@ header {
     z-index: 10;
 }
 
-header h1 {
-    /* background-color: #939597; */
-    color: #FDE900;
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    opacity: 90%;
-    border-color: #074207;
-    border-width: medium;
-    font-size: 1.85rem;
+ul, ol {
+  text-align: center;
+  list-style-position: inside;
 }
-.lit {
 
+p {
+  line-height: 10px;
+  letter-spacing: .3px;
 }
+
 .header-banner {
-    background-color: #073299;
+    background-color: #220169;
     /* background-image: url('../img/john.png'); */
     background-position:center;
     background-repeat: no-repeat;
@@ -47,14 +60,14 @@ header h1 {
     height: 300px;
 }
 .john {
-  width: 35%;
+  width: 40%;
   height: 100%;
-  border-right: 4px solid black;
+  border-right: 4px solid #042404;
   /* border-left: 5px solid #939597; */
   /* border-bottom: 5px solid #939597; */
   padding-left: 5%;
 }
-#pasta {
+.float_logo {
   width:33%;
   height: 75%;
   /* padding: 10%; */
@@ -62,17 +75,18 @@ header h1 {
   float: right;
   margin-right: 15%;
   margin-top: 1%;
-  box-shadow: 15px 15px black;
+  box-shadow: 15px 15px #003f00;
   /* padding-top: 10%
   padding-bottom: 15px; */
   border-radius: 50%;
-  background-image:url("../img/pasta.png");
+  background-image:url("../img/logo_pasta.png");
   animation-name: jiggle;
   animation-duration: 9.8s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
+
   @keyframes jiggle {
     from {margin-right: 0%;}
     to {margin-right: 20%;}
@@ -81,21 +95,15 @@ header h1 {
 .name {
     padding-left: 5%;
     padding-top: .7%;
-    animation-name: gold;
-    animation-duration: 5s;
   }
-  h1 {
-      animation-name: gold;
-      animation-duration: 5s;
-    }
-  .hed {
+  .name, h2, a {
       animation-name: gold;
       animation-duration: 5s;
     }
 
   @keyframes gold {
-    from {color: #000000;}
-    to {color: #FDE900;}
+    from {color: #f0c506;}
+    to {color: #333123;}
   }
 
 .container {
@@ -103,13 +111,16 @@ header h1 {
    background-color: #939597;
    text-align: center;
 }
-#com {
-  color: #FDE900
+#com, .com {
+  color: #003f00
 }
-.art {
-  width: 20%;
-  height: 2%;
+.beer {
+  width: 22%;
+  height: 2.2%;
+  clear: right;
 }
+
+
 .fixed-header {
     position: fixed;
     top: 0;
@@ -121,7 +132,7 @@ nav {
     height: 60px;
     background-image: url('../img/bzlogo3.png');
     background-size: 100px, 100px;
-    postion: fixed;
+    position: fixed;
     z-index: 10;
 }
 nav div {
@@ -138,6 +149,10 @@ nav div {
     visibility: visible;
 }
 
+.art {
+  height: 2%;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0 2% auto 0;
@@ -147,6 +162,7 @@ nav ul {
     background-image: url('../img/bzlogo3.png')!important;
     background-position: center;
     background-repeat: repeat;
+    
     background-size: 133px, 133px;
 }
 nav ul li {
@@ -156,7 +172,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: #FDE900;
+    color: #f0c506;
     /* background-color: #939597; */
     background-color: #939597;
     font-size: 1.7rem;
@@ -185,7 +201,7 @@ p img {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 980px) {
     .content{
         padding: 2rem 0;
     }
