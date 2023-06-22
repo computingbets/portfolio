@@ -60,7 +60,7 @@ p {
     height: 300px;
 }
 .john {
-  width: 40%;
+  width: 33%;
   height: 100%;
   border-right: 4px solid #042404;
   /* border-left: 5px solid #939597; */
@@ -81,7 +81,7 @@ p {
   border-radius: 50%;
   background-image:url("../img/logo_pasta.png");
   animation-name: jiggle;
-  animation-duration: 9.8s;
+  animation-duration: 9.1s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
@@ -98,7 +98,7 @@ p {
   }
   .name, h2, a {
       animation-name: gold;
-      animation-duration: 5s;
+      animation-duration: 4.2s;
     }
 
   @keyframes gold {

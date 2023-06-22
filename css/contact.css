@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'oswald';
+    src: url('Wavetosh.ttf');
+  }
+
 body {
   margin:0px; padding:0px;
   background-color: #72C59B
@@ -23,6 +28,10 @@ header {
   background-color: #939597;
 
 }
+
+h1, ul, li {
+    font-family: 'oswald', Arial, Helvetica, sans-serif;
+    }
 
 .mario {
   background-color: #72C59B;
@@ -151,10 +160,6 @@ p img {
         text-align: center;
         width: 100%;
     }
-}
-.statusMsg {
-  color: black;
-  background-color: blue;
 }
 
 /* .form-group{

@@ -1,16 +1,16 @@
 'use strict'
 console.log('hello')
-// if (typeof jQuery === "undefined" || != "undefined") {
-//     var script = document.createElement('script');
-//     script.src = 'http://code.jquery.com/jquery-latest.min.js';
-//     script.type = 'text/javascript';
-//     document.getElementsByTagName('head')[0].appendChild(script);
-// }
-//
-// //edit
-// window.onload = function() {
-//     $(function(){ alert("jQuery + DOM loaded."); });
-// }
+if (typeof jQuery === "undefined" || != "undefined") {
+    var script = document.createElement('script');
+    script.src = 'http://code.jquery.com/jquery-latest.min.js';
+    script.type = 'text/javascript';
+    document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+//edit
+window.onload = function() {
+    $(function(){ alert("jQuery + DOM loaded."); });
+}
 function submitContactForm () {
   console.log('helloooo')
   var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i
