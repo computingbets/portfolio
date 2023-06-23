@@ -25,11 +25,13 @@ header {
 }
 
 .luigi {
-  background-color: #939597;
+  background-color: darkslategray;
 
 }
 
-h1, ul, li {
+
+
+h1 {
     font-family: 'oswald', Arial, Helvetica, sans-serif;
     }
 
@@ -42,14 +44,41 @@ h1, ul, li {
   background-position: center;
   background-size: 100%;
   opacity: 50%;
+  z-index: -2;
 }
 
-#ContactUs100 {
-  padding-left: 5%;
-  background-color: #939597;
-  position: absolute;
-  float: left;
-  width: 66%;
+/* .nineteen, .info {
+    font-size : 20px;
+    color: black;
+    z-index: 1 !important;
+    opacity: 100% !important;
+  } */
+  .linkedin, .github, .email {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 100% !important;
+  }
+ p {
+    margin-right: 50%;
+    padding-left: 10%;
+ }
+.email {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 100% !important;
+    color: rgb(61, 139, 46);
+    z-index: 2;
+    background-color: darkslategrey;
+}
+
+.linkedin {
+    background-color: rgb(61, 139, 46);
+    color: darkslategray;
+}
+
+.github {
+    color: rgb(61, 139, 46);
+    background-color: darkslategrey;
 }
 
 header h1 {
@@ -68,6 +97,8 @@ header h1 {
     left: 0;
     width: 100%;
 }
+
+
 
 nav {
     width: 100%;
@@ -109,39 +140,13 @@ nav ul li {
     margin-left: 10px;
 }
 nav ul li a {
-  /* text-decoration-line: overline underline;
-  text-decoration-style: wavy; */
-  color: #0f4c81;
-  background-color: #939597;
-  font-size: 1.225rem;
+    text-decoration: none;
+    color: #f0c506;
+    background-color: #939597;
+    font-size: 1.7rem;
+    z-index: 1;
 }
 
-/* demo content */
-body {
-    color: #292f36;
-    font-family: helvetica;
-    line-height: 1.6;
-}
-.content{
-    margin: 0 auto;
-    padding: 4rem 0;
-    width: 960px;
-    max-width: 100%;
-}
-article {
-    float: left;
-    width: 720px;
-}
-article p:first-of-type {
-    margin-top: 0;
-}
-aside {
-    float: right;
-    width: 120px;
-}
-p img {
-    max-width: 100%;
-}
 
 @media only screen and (max-width: 960px) {
     .content{
