@@ -44,8 +44,12 @@ h1 {
   background-position: center;
   background-size: 100%;
   opacity: 50%;
- 
-}
+ }
+
+ .tweet_card{
+    background-image: url('css/TwitterLogo.png'); 
+    position: "absolute";
+ }
 
 /* .nineteen, .info {
     font-size : 20px;
@@ -104,7 +108,7 @@ nav {
     height: 60px;
     background-image: url('../img/bzlogo3.png');
     background-size: 100px, 100px;
-    /* postion: fixed; */
+    font-family: 'oswald';
 }
 
 nav div {
