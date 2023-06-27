@@ -44,7 +44,7 @@ h1 {
   background-position: center;
   background-size: 100%;
   opacity: 50%;
-  z-index: -2;
+ 
 }
 
 /* .nineteen, .info {
@@ -67,7 +67,6 @@ h1 {
     font-weight: 600;
     opacity: 100% !important;
     color: rgb(61, 139, 46);
-    z-index: 2;
     background-color: darkslategrey;
 }
 
@@ -106,7 +105,6 @@ nav {
     background-image: url('../img/bzlogo3.png');
     background-size: 100px, 100px;
     /* postion: fixed; */
-    z-index: 10;
 }
 
 nav div {
