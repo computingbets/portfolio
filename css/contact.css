@@ -5,7 +5,7 @@
 
 body {
   margin:0px; padding:0px;
-  background-color: #72C59B
+  background-color: #7278ff
 }
 
 /* main */
@@ -71,7 +71,7 @@ nav ul li a {
     text-decoration: none;
     color: #f0c506;
     background-color: #939597;
-    font-size: 2rem;
+    font-size: 2em;
     z-index: 1;
     transition: background-color 2s ease-out 100ms
   }
@@ -81,7 +81,7 @@ nav ul li a {
   }
 
 .header-banner {
-    background-color: #073200;
+    background-color: #311175;
     background-blend-mode: color-burn;
     /* background-image: url('../img/bkgrnd.jpg'); */
     background-position: center;
@@ -99,12 +99,22 @@ nav ul li a {
 .mario {
     background-color: #72C59B;
     width: 25%;
-    height: 250px;
+    height: 25%;
     position: relative;
     background-image: url("../img/delish-bolognese-horizontal-1-1540572556.jpg");
     background-position: center;
     background-size: 100%;
-    opacity: 50%;
+    opacity: 66%;
+   }
+
+   .davis {
+    height: 25%;
+    width: 25%;
+    float: right;
+    opacity: 66%;
+    clear: both;
+    margin: -17.5%;
+    padding-right: 74%;
    }
 
  .tweet_card{
@@ -147,8 +157,6 @@ nav ul li a {
     background-color: darkslategrey;
 }
 
-
-
 .fixed-header {
     position: fixed;
     top: 0;
@@ -156,12 +164,9 @@ nav ul li a {
     width: 100%;
 }
 
-
 .visible-title {
     visibility: visible;
 }
-
-
 
 @media only screen and (max-width: 960px) {
     .content{
@@ -181,7 +186,3 @@ nav ul li a {
         width: 100%;
     }
 }
-
-/* .form-group{
-  background-image: url;
-} */
