@@ -16,6 +16,10 @@ header h1 {
   
 }
 
+a { color: darkslategray;
+    background: goldenrod;  
+}
+
 h1 {
 font-family: 'oswald', Arial, Helvetica, sans-serif;
 }
@@ -57,8 +61,10 @@ ul, ol {
 }
 
 p {
-  line-height: 10px;
+  line-height: 1.6rem;
   letter-spacing: .3px;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .header-banner {
@@ -125,11 +131,22 @@ p {
   color: #003f00
 }
 .beer {
-  width: 22%;
-  height: 2.2%;
+  width: 80%;
+  height:80%;
   clear: right;
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
+.background {
+  width: 33%;
+  height: 33%;
+  background-color: darkslategray;
+  z-index: -1;
+  margin-left: 33%;
+  border-radius: 50%;
+}
 
 .fixed-header {
     position: fixed;
