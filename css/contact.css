@@ -152,6 +152,15 @@ nav ul li a {
     background-color: darkslategrey;
 }
 
+.meme_screen {
+    background-position: center;
+    
+}
+
+.meme_center {
+    margin-left: 25%;
+}
+
 .fixed-header {
     position: fixed;
     top: 0;

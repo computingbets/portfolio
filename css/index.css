@@ -26,17 +26,17 @@ font-family: 'oswald', Arial, Helvetica, sans-serif;
 
 body {
   margin: 0px; padding:0px;
-  color: #073299;
+  color: darkblue;
   font-family: helvetica;
   line-height: 1.6;
   background-color: #023315
 
 }
 h3 {
-  color: #010482;
+  color: #782791;
 }
 h4 {
-  color: #441392;
+  color: #429213;
 }
 
 .hed {
@@ -71,6 +71,12 @@ p {
   letter-spacing: .3px;
   margin-left: 8%;
   margin-right: 8%;
+
+}
+
+.blue {
+  background-color: darkblue;
+  color: goldenrod;
 }
 
 .header-banner {
@@ -125,18 +131,18 @@ p {
 
   @keyframes gold {
     from {color: #f0c506;}
-    to {color: #333123;}
+    to {color: #130d4a;}
   }
 
 .container {
    box-shadow: 10px 10px darkgreen;
-   background-color: #939597;
+   background-color: #5f5f64;
    text-align: center;
 }
 #com, .com {
   padding-top: 3%;
   padding-bottom: 1%;
-  color: #003f00;
+  color: #c93737;
   height: 50%;
   font-size: 350%;
 }
@@ -173,7 +179,7 @@ nav {
 }
 nav div {
     color: #0f4c81;
-    background-color: #939597;
+    background-color: #5f5f64;
     font-size: 2rem;
     line-height: 60px;
     position: absolute;
@@ -232,7 +238,7 @@ nav ul li a {
     text-decoration: none;
     color: #f0c506;
     /* background-color: #939597; */
-    background-color: #939597;
+    background-color: #5f5f64;
     font-size: 1.7rem;
 }
 
