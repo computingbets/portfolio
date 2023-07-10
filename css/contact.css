@@ -143,17 +143,12 @@ nav ul li a {
     font-size: 20px;
     font-weight: 600;
     opacity: 100% !important;
-    color: rgb(61, 139, 46);
+    color: yellow;
     background-color: darkslategrey;
 }
 
-.linkedin {
-    background-color: rgb(61, 139, 46);
-    color: darkslategray;
-}
-
-.github {
-    color: rgb(61, 139, 46);
+.github, .linkedin {
+    color: #22FF44;
     background-color: darkslategrey;
 }
 
