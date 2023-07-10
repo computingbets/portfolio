@@ -49,6 +49,12 @@ h4 {
   font-style: bold;
 }
 
+.nineteen8 {
+  color: crimson;
+  font-size: 21px;
+  font-style: bold;
+}
+
 /* main */
 header {
     height: 360px;
@@ -112,9 +118,9 @@ p {
     padding-left: 5%;
     padding-top: .7%;
   }
-  .name, h2, a {
+  .name, h2, a, #com, .com {
       animation-name: gold;
-      animation-duration: 4.2s;
+      animation-duration: 2.25s;
     }
 
   @keyframes gold {
@@ -128,7 +134,9 @@ p {
    text-align: center;
 }
 #com, .com {
-  color: #003f00
+  color: #003f00;
+  height: 50%;
+  font-size: 350%;
 }
 .beer {
   width: 80%;
@@ -173,6 +181,8 @@ nav div {
 }
 .visible-title {
     visibility: visible;
+    font-family: 'oswald';
+    color: gold;
 }
 
 .art {
