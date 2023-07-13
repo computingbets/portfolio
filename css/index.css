@@ -115,6 +115,78 @@ p {
   text-shadow: 0 0 3px #FF0021, 0 0 5px #0000FF;
 }
 
+.container {
+  box-shadow: 10px 10px darkgreen;
+  background-color: #5f5f64;
+  text-align: center;
+}
+#com, .com {
+ padding-top: 3%;
+ padding-bottom: 1%;
+ color: #c93737;
+ height: 50%;
+ font-size: 350%;
+}
+.beer {
+ width: 80%;
+ height:80%;
+ clear: right;
+ border-radius: 50%;
+ margin-top: 10%;
+ margin-bottom: 10%;
+}
+
+.background {
+ width: 33%;
+ height: 33%;
+ background-color: darkslategray;
+ z-index: -1;
+ margin-left: 33%;
+ border-radius: 50%;
+}
+
+.fixed-header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
+.visible-title {
+ visibility: visible;
+ font-family: 'oswald';
+ color: gold;
+}
+
+.art {
+height: 80%;
+width: 80%;
+border-radius: 50%;
+margin-bottom: 2%;
+margin-top: 9%;
+background-position: center;
+}
+
+.background1 {
+height: 25%;
+width: 25%;
+border-radius: 50%;
+background-color: crimson;
+padding-bottom: 2%;
+background-position: center;
+margin-left: 38%;  
+
+}
+
+.prev3 {
+padding-bottom: 3%;
+}
+
+.stonk {
+  height: 45%;
+  width: 45%;
+}
+
   @keyframes jiggle {
     from {margin-right: 0%;}
     to {margin-right: 20%;}
@@ -134,42 +206,7 @@ p {
     to {color: #130d4a;}
   }
 
-.container {
-   box-shadow: 10px 10px darkgreen;
-   background-color: #5f5f64;
-   text-align: center;
-}
-#com, .com {
-  padding-top: 3%;
-  padding-bottom: 1%;
-  color: #c93737;
-  height: 50%;
-  font-size: 350%;
-}
-.beer {
-  width: 80%;
-  height:80%;
-  clear: right;
-  border-radius: 50%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
 
-.background {
-  width: 33%;
-  height: 33%;
-  background-color: darkslategray;
-  z-index: -1;
-  margin-left: 33%;
-  border-radius: 50%;
-}
-
-.fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
 nav {
     width: 100%;
     height: 60px;
@@ -186,35 +223,6 @@ nav div {
     top: 0;
     left: 2%;
     visibility: hidden;
-}
-.visible-title {
-    visibility: visible;
-    font-family: 'oswald';
-    color: gold;
-}
-
-.art {
-  height: 80%;
-  width: 80%;
-  border-radius: 50%;
-  margin-bottom: 2%;
-  margin-top: 9%;
-  background-position: center;
-}
-
-.background1 {
-  height: 25%;
-  width: 25%;
-  border-radius: 50%;
-  background-color: crimson;
-  padding-bottom: 2%;
-  background-position: center;
-  margin-left: 38%;  
-
-}
-
-.prev3 {
-  padding-bottom: 3%;
 }
 
 nav ul {
