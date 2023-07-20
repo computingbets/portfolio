@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'oswald';
-  src: url('Wavetosh.ttf');
+  src: url('./fonts/Wavetosh.ttf');
 }
 
 header h1 {
@@ -127,19 +127,11 @@ p {
  height: 50%;
  font-size: 350%;
 }
-.beer {
- width: 80%;
- height:80%;
- clear: right;
- border-radius: 50%;
- margin-top: 10%;
- margin-bottom: 10%;
-}
 
 .background {
  width: 33%;
  height: 33%;
- background-color: darkslategray;
+ background-color: rgb(224, 25, 25);
  z-index: -1;
  margin-left: 33%;
  border-radius: 50%;
@@ -158,11 +150,11 @@ p {
  color: gold;
 }
 
-.art {
+.beer {
 height: 80%;
 width: 80%;
 border-radius: 50%;
-margin-bottom: 2%;
+margin-bottom: 9%;
 margin-top: 9%;
 background-position: center;
 }

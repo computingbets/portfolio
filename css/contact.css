@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'oswald';
-    src: url('Wavetosh.ttf');
+    src: url('./fonts/Wavetosh.ttf');
   }
 
 body {
