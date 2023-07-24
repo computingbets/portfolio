@@ -52,8 +52,8 @@
             animation-timing-function: linear;
    -webkit-animation-name: ticker;
            animation-name: ticker;
-    -webkit-animation-duration: 30s;
-            animation-duration: 30s;
+    -webkit-animation-duration: 33.3s;
+            animation-duration: 33.3s;
 
     &__item {
 
