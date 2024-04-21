@@ -35,7 +35,7 @@ h3 {
   color: #782791;
 }
 h4 {
-  color: #429213;
+  color: #44ba00;
 }
 
 .hed {
@@ -43,12 +43,11 @@ h4 {
 }
 
 .nineteen {
-  color: crimson;
-  font-size: 25px;
-  font-style: bold;
+  padding-top: 15px;
 }
 
-.nineteen8 {
+ .nineteen8 {
+  padding-top: 25px;
   color: crimson;
   font-size: 21px;
   font-style: bold;
@@ -80,14 +79,13 @@ p {
 
 .header-banner {
     background-color: #303eab;
-    /* background-image: url('../img/pfp.png'); */
     background-position:center;
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
 }
 .pfp {
-  width: 25%;
+  width: 33%;
   height: 100%;
   border-right: 4px solid #044404;
   border-left: 4px solid #044404;
@@ -102,7 +100,27 @@ p {
 
 @keyframes jiggle {
   from {margin-right: 0%;}
-  to {margin-right: 25%;}
+  to {margin-right: 37%;}
+}
+
+@keyframes gold {
+  from {color: #f0c506;}
+  to {color: #ca00c7;}
+}
+
+.name, h2, a, #com, .com {
+  animation-name: gold;
+  animation-duration: 3s;
+}
+
+@keyframes boot_gold {
+  from {color: #44ba00;}
+  to {color: #f0c506;}
+}
+
+.booting {
+  animation-name: boot_gold;
+  animation-duration: 3s;
 }
 
 
@@ -118,7 +136,7 @@ p {
 }
 
 .container {
-  box-shadow: 10px 10px darkgreen;
+  box-shadow: 10px 10px #044404;
   background-color: #5f5f64;
   text-align: center;
 }
@@ -134,7 +152,7 @@ p {
 .background {
  width: 33%;
  height: 33%;
- background-color: rgb(224, 25, 25);
+ background-color: #ca00c7;
  z-index: -1;
  margin-left: 33%;
  border-radius: 50%;
@@ -147,7 +165,7 @@ p {
    width: 100%;
 }
 
-.visible-title {
+.visible-title {  
  visibility: visible;
  font-family: 'oswald';
  color: gold;
@@ -181,8 +199,8 @@ margin-left: 38%;
 
 }
 
-.prev3 {
-padding-bottom: 3%;
+.prev2 {
+  margin-top: 33px;
 }
 
 .stonk {
@@ -194,16 +212,7 @@ padding-bottom: 3%;
     padding-left: 5%;
     padding-top: .7%;
   }
-  .name, h2, a, #com, .com {
-      animation-name: gold;
-      animation-duration: 2.25s;
-    }
-
-  @keyframes gold {
-    from {color: #f0c506;}
-    to {color: #130d4a;}
-  }
-
+ 
 
 nav {
     width: 100%;
@@ -232,7 +241,6 @@ nav ul {
     background-image: url('../img/bzlogo3.png')!important;
     background-position: center;
     background-repeat: repeat;
-    
     background-size: 133px, 133px;
 }
 nav ul li {
@@ -243,12 +251,16 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #f0c506;
-    /* background-color: #939597; */
     background-color: #5f5f64;
     font-size: 1.7rem;
 }
 
-@media only screen and (max-width: 980px) {
+.list {
+  list-style-type: none;
+  margin: auto;
+}
+
+@media only screen and (min-width: 400px) {
     .content{
         padding: 2rem 0;
     }
@@ -264,5 +276,22 @@ nav ul li a {
         float: none;
         text-align: center;
         width: 100%;
+    }
+    .piss {
+      width: 25%;
+      font-size: 25px;
+    }
+    .visible-title {
+      width: 25%;
+    }
+    .site-title {
+      width: 25%;
+    }
+    .pfp {
+      width: 52%;
+    }
+    @keyframes jiggle {
+      from {margin-right: 0%;}
+      to {margin-right: 18%;}
     }
 }
