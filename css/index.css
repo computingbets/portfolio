@@ -81,7 +81,7 @@ p {
 
 .header-banner {
     background-color: #303eab;
-    /* background-image: url('../img/john.png'); */
+    /* background-image: url('../img/pfp.png'); */
     background-position:center;
     background-repeat: no-repeat;
     width: 100%;
@@ -121,7 +121,7 @@ p {
   /* padding-top: 10%
   padding-bottom: 15px; */
   border-radius: 50%;
-  background-image:url("../img/logo_pasta.png");
+  background-image:url("../img/brain.png");
   animation: 3s linear 1s infinite alternate jiggle;  
   /* animation-name: jiggle;
   animation-duration: 9s;
