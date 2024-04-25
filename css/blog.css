@@ -52,6 +52,13 @@ body {
             width: 26%;
             height: 149%;
         }
+
+        .visible-title {
+            width: 25%;
+          }
+          .site-title {
+            width: 25%;
+          }
        
         @keyframes jiggle {
           from {margin-right: 0%;}
