@@ -1,3 +1,7 @@
+body {
+    color: #0099aa;
+}
+
 .john_blog {
     padding-left: 8%;
     padding-right: 2%;
@@ -16,3 +20,48 @@
     margin-top: 9%;
     background-position: center;
     }
+
+    .beer_background {
+        width: 33%;
+        height: 33%;
+        background-color: #5500D2;
+        z-index: -1;
+        margin-left: 33%;
+        border-radius: 50%;
+       }
+       
+
+    @media only screen and (max-width: 400px) {
+        .content{
+            padding: 2rem 0;
+        }
+        article {
+            float: none;
+            margin: 0 auto;
+            width: 96%;
+        }
+        article:last-of-type {
+            margin-bottom: 3rem;
+        }
+        aside {
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        .visible-title-b {
+          width: 25%;
+        }
+        .site-title-b {
+          width: 25%;
+        }
+       
+        @keyframes jiggle {
+          from {margin-right: 0%;}
+          to {margin-right: 18%;}
+        }
+        .stonk {
+          height: 45%;
+          width: 75%;
+        }
+    }
+    
