@@ -283,4 +283,8 @@ nav ul li a {
       from {margin-right: 0%;}
       to {margin-right: 18%;}
     }
+    .stonk {
+      height: 45%;
+      width: 75%;
+    }
 }
