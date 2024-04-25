@@ -12,7 +12,7 @@ window.onload = function() {
     $(function(){ alert("jQuery + DOM loaded."); });
 }
 function submitContactForm () {
-  console.log('helloooo')
+  console.log('hello')
   var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i
   var name = $('#inputName').val()
   var email = $('#inputEmail').val()

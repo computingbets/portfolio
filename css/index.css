@@ -100,7 +100,7 @@ p {
 
 @keyframes jiggle {
   from {margin-right: 0%;}
-  to {margin-right: 37%;}
+  to {margin-right: 33%;}
 }
 
 @keyframes gold {
@@ -108,7 +108,7 @@ p {
   to {color: #ca00c7;}
 }
 
-.name, h2, a, #com, .com {
+.name, .name2, h2, a, #com, .com {
   animation-name: gold;
   animation-duration: 3s;
 }
@@ -187,17 +187,6 @@ background-position: center;
   margin-top: 9%;
   background-position: center;
   }
-
-.background1 {
-height: 25%;
-width: 25%;
-border-radius: 50%;
-background-color: crimson;
-padding-bottom: 2%;
-background-position: center;
-margin-left: 38%;  
-
-}
 
 .prev2 {
   margin-top: 33px;
