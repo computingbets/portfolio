@@ -25,7 +25,7 @@ font-family: 'oswald', Arial, Helvetica, sans-serif;
 
 body {
   margin: 0px; padding:0px;
-  color: darkblue;
+  color: rgb(0, 0, 184);
   font-family: helvetica;
   line-height: 1.6;
   background-color: #228648
@@ -147,6 +147,14 @@ p {
  color: #c93737;
  height: 50%;
  font-size: 350%;
+}
+
+.fizzle {
+  margin-bottom: 3.3%;
+}
+
+.fizz_em {
+  margin-top: 3.3%;
 }
 
 .beer_background {
