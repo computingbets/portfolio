@@ -117,4 +117,32 @@ body {
             font-size: 15.3px;
         }
     }
+
+    .__item {
+      color: aquamarine;
+    }
     
+    .window-swap {
+      clear: both;
+      padding-bottom: 20px;
+      margin-bottom: 20%;
+    }
+    .bg-img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: url('http://unsplash.it/1200x800') center center no-repeat;
+      background-size: cover;
+      
+      &:before {
+        content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right,#14571a,#2300be);
+      opacity: .6; 
+      z-index: -1;
+      }
+    } 

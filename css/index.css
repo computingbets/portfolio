@@ -12,6 +12,7 @@ header h1 {
   border-color: #074207;
   border-width: medium;
   font-size: 1.85rem;
+  z-index: 1;
   
 }
 
@@ -25,11 +26,12 @@ font-family: 'oswald', Arial, Helvetica, sans-serif;
 
 body {
   margin: 0px; padding:0px;
-  color: rgb(0, 0, 184);
+  color: #22e9ff;
   font-family: 'Crete Round';
   font-weight: 400;
   line-height: 1.6;
-  background-color: #228648
+  background-color: #228648;
+  z-index: 0;
 
 }
 h3 {
@@ -45,6 +47,8 @@ h4 {
 
 .hed {
   font-family: 'oswald';
+  z-index: 1;
+  
 }
 
 .nineteen {
@@ -61,7 +65,6 @@ h4 {
 /* main */
 header {
     height: 360px;
-    z-index: 10;
 }
 
 ul, ol {
@@ -83,11 +86,12 @@ p {
 }
 
 .header-banner {
-    background-color: #303eab;
+    background-color: #172bc7;
     background-position:center;
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
+    z-index: ;
 }
 .pfp {
   width: 25%;
@@ -142,14 +146,14 @@ p {
 
 .container {
   box-shadow: 10px 10px #044404;
-  background-color: #5f5f64;
+  /* background-color: #5f5f64; */
   text-align: center;
 }
 
 #com, .com {
  padding-top: 3%;
  padding-bottom: 1%;
- color: #3400ee;
+ color: #00ee83;
  height: 50%;
  font-size: 350%;
 }
@@ -165,6 +169,7 @@ p {
   content: url(https://scontent.cdninstagram.com/v/t39.30808-6/452937521_17999782277646998_8596854747353481617_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=wlGjpy0PQ_4Q7kNvgHmKtxS&_nc_gid=00e9ba64612c4db0851a2cfb7825c6ca&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzQyMTUwNjIzNTA1OTUwOTk4OQ%3D%3D.3-ccb7-5&oh=00_AYBJl8QqhEkpv8zrR_V0kmXZFjKztH2y-4XygO4IXHXTEw&oe=66F56871&_nc_sid=10d13b);
   max-height: 20%;
   max-width: 20%;
+  z-index: 1;
 }
 
 
@@ -190,6 +195,7 @@ p {
    top: 0;
    left: 0;
    width: 100%;
+   z-index: 2;
 }
 
 .visible-title {  
@@ -205,6 +211,7 @@ border-radius: 50%;
 margin-bottom: 9%;
 margin-top: 9%;
 background-position: center;
+z-index: 1;
 }
 
 .beer1 {
@@ -311,4 +318,27 @@ nav ul li a {
       to {margin-right: 18%;}
     }
     
+}
+
+.bg-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url('http://unsplash.it/1200x800') center center no-repeat;
+  background-size: cover;
+  
+ 
+  
+  &:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#14571a,#2300be);
+	opacity: .6; 
+  z-index: -1;
+ 
+  }
 }
