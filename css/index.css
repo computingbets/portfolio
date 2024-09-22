@@ -85,7 +85,7 @@ p {
     height: 300px;
 }
 .pfp {
-  width: 33%;
+  width: 27%;
   height: 100%;
   border-right: 4px solid #044404;
   border-left: 4px solid #044404;
@@ -283,8 +283,5 @@ nav ul li a {
       from {margin-right: 0%;}
       to {margin-right: 18%;}
     }
-    .stonk {
-      height: 45%;
-      width: 75%;
-    }
+    
 }
