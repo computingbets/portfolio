@@ -26,7 +26,8 @@ font-family: 'oswald', Arial, Helvetica, sans-serif;
 body {
   margin: 0px; padding:0px;
   color: rgb(0, 0, 184);
-  font-family: helvetica;
+  font-family: 'Crete Round';
+  font-weight: 400;
   line-height: 1.6;
   background-color: #228648
 
@@ -36,7 +37,11 @@ h3 {
 }
 h4 {
   color: #44ba00;
-}
+    font-family: 'Montagu Slab';
+    font-weight: 700;
+    font-style: normal;
+
+  };
 
 .hed {
   font-family: 'oswald';
@@ -85,7 +90,7 @@ p {
     height: 300px;
 }
 .pfp {
-  width: 27%;
+  width: 25%;
   height: 100%;
   border-right: 4px solid #044404;
   border-left: 4px solid #044404;
@@ -105,7 +110,7 @@ p {
 
 @keyframes gold {
   from {color: #f0c506;}
-  to {color: #ca00c7;}
+  to {color: #84ff00;}
 }
 
 .name, .name2, h2, a, #com, .com {
@@ -144,10 +149,24 @@ p {
 #com, .com {
  padding-top: 3%;
  padding-bottom: 1%;
- color: #c93737;
+ color: #3400ee;
  height: 50%;
  font-size: 350%;
 }
+
+.album {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.joke_writer {
+  content: url(https://scontent.cdninstagram.com/v/t39.30808-6/452937521_17999782277646998_8596854747353481617_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=wlGjpy0PQ_4Q7kNvgHmKtxS&_nc_gid=00e9ba64612c4db0851a2cfb7825c6ca&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzQyMTUwNjIzNTA1OTUwOTk4OQ%3D%3D.3-ccb7-5&oh=00_AYBJl8QqhEkpv8zrR_V0kmXZFjKztH2y-4XygO4IXHXTEw&oe=66F56871&_nc_sid=10d13b);
+  max-height: 20%;
+  max-width: 20%;
+}
+
 
 .fizzle {
   margin-bottom: 3.3%;
@@ -247,7 +266,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: #f0c506;
+    color: #e9ca41;
     background-color: #5f5f64;
     font-size: 1.7rem;
 }

@@ -1,5 +1,7 @@
 body {
-    color: #0099aa;
+    color: #22e9ff;
+    font-family: "Crete Round";
+    font-weight: 400;
 }
 
 .john_blog {
@@ -10,8 +12,49 @@ body {
   }
   
   .name2 {
-    background-color: #5f5f64;
+    background-color: #4b4b4f;
   }
+
+  .header_color {
+    color: #f84fcb;
+  }
+
+  p {
+    line-height: 1.6rem;
+    letter-spacing: .3px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 3.3%;
+  
+  }
+
+  .casey { 
+    margin-bottom: 3.3%;
+  }
+
+  .casey2 {
+    margin-top: 3.3%;
+  }
+
+  .album {
+    height: 20%;
+    width: 20%;
+  }
+
+  .joke_writer {
+    /* content: url(https://scontent.cdninstagram.com/v/t39.30808-6/452937521_17999782277646998_8596854747353481617_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=wlGjpy0PQ_4Q7kNvgHmKtxS&_nc_gid=00e9ba64612c4db0851a2cfb7825c6ca&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzQyMTUwNjIzNTA1OTUwOTk4OQ%3D%3D.3-ccb7-5&oh=00_AYBJl8QqhEkpv8zrR_V0kmXZFjKzth4y-4XygO4IXHXTEw&oe=66F56871&_nc_sid=10d13b); */
+    max-height: 100%;
+    max-width: 100%
+  }
+
+  h3 {
+    color: #f84fcb;
+      font-family: 'Montagu Slab';
+      font-weight: 700;
+      font-style: normal;
+  
+    };
+
   
   .beer_blog {
     height: 33%;
