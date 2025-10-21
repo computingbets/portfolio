@@ -29,10 +29,11 @@
 .ticker-wrap {
   
   position: fixed;
+  clear: top;
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  height: 3.1rem;
+  height: 2.7rem;
   background-color: #444333; 
   padding-left: 100%;
   box-sizing: content-box;
@@ -40,8 +41,8 @@
   .ticker {
 
     display: inline-block;
-    height: 4rem;
-    line-height: 4rem;  
+    height: 2.7rem;
+    line-height: 2.7rem;  
     white-space: nowrap;
     padding-right: 100%;
     box-sizing: content-box;

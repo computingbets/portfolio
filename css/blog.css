@@ -126,6 +126,7 @@ body {
       clear: both;
       padding-bottom: 20px;
       margin-bottom: 20%;
+      font-size: 3px;
     }
     .bg-img {
       position: relative;
@@ -146,3 +147,7 @@ body {
       z-index: -1;
       }
     } 
+
+    .ticker { height: 0%}
+
+    }
